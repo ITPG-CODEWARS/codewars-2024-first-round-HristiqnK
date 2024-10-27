@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 25vh;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-attachment: fixed;
+}
+
+.content 
+{
+    text-align: center;
+}
+
+h1
+{
+    color: #ffffff;
+    margin: 5vh;
+    font-family: "Spectral SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 7vh;
+}
+.continue
+{
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 1vh;
+    padding: 2vh;
+    font-family: "Spectral SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vh;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.continue:hover {
+    color:#000000;
+    background-color: rgb(255, 255, 255);
+}
