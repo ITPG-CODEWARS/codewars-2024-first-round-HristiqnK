@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-attachment: fixed;
+}
+.title
+{
+    text-align: center;
+    color: #ffffff;
+    margin: 5vh;
+    font-family: "Spectral SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7vh;
+}
+.container
+{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img
+{
+    height: 30vh;
+    border: 2px solid white;
+    border-radius: 1vh;
+}
+.info
+{
+    margin-left: 5vh;
+    font-family: "Spectral SC", serif;
+    font-weight: 300;
+    font-size: 2.5vh;
+}

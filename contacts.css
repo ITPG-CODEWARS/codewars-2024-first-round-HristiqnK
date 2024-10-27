@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-attachment: fixed;
+}
+.title
+{
+    color: #ffffff;
+    margin: 5vh;
+    font-family: "Spectral SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 7vh;
+    text-align: center;
+}
+.contactcards
+{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information
+{
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 1vh;
+    width: 50vh;
+    height: 30vh;
+    margin: 0 auto;
+}
+.infoTitle
+{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: "Spectral SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5vh;
+}
+.info
+{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-family: "Spectral SC", serif;
+    font-weight: 300;
+    font-size: 2.5vh;
+}
