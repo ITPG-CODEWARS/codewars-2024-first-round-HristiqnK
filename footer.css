@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+}
+footer
+{
+    background-color: #323236;
+    border-top: 2px solid #00000080;
+    border-bottom: 2px solid #00000080;
+    padding: 1vh;
+    color: white;
+    font-family: "Spectral SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    position: sticky;
+    top: 100vh;
+    margin-top: auto;
+    
+}
+.footerContent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerNav li
+{
+    list-style: none;
+}
+.footerContacts li
+{
+    list-style: none;
+}
+.footerNav li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footerNav li a:hover {
+    color: #cccccc;
+}

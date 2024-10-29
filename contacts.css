@@ -22,7 +22,6 @@ body
 }
 .contactcards
 {
-    margin-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +33,7 @@ body
     color: white;
     border-radius: 1vh;
     width: 50vh;
-    height: 30vh;
+    height: 37vh;
     margin: 0 auto;
 }
 .infoTitle
@@ -53,4 +52,10 @@ body
     font-family: "Spectral SC", serif;
     font-weight: 300;
     font-size: 2.5vh;
+}
+.information img
+{
+    padding-top: 2vh;
+    height: 10vh;
+    filter: invert(1);
 }
