@@ -44,3 +44,10 @@ footer
 .footerNav li a:hover {
     color: #cccccc;
 }
+
+@media (max-width: 600px) {
+    .footerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+}

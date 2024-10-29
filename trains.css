@@ -106,3 +106,12 @@ body
     color:#000000;
     background-color: rgb(255, 255, 255);
 }
+@media (max-width: 600px) {
+    .train {
+        width: 80%;
+    }
+    .footerContent {
+        flex-direction: column;
+        align-items: center;
+    }
+}
